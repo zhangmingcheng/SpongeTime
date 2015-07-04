@@ -79,7 +79,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li><a href="../person/index.jsp">概观</span></a></li>
-            <li><a href="index.jsp">任务进度</a></li>
+            <li><a href="../task/index.jsp">任务进度</a></li>
             <li><a href="#">时间线</a></li>
             <li><a href="#">计划月历</a></li>
           </ul>

@@ -48,8 +48,8 @@ public class ManageTeam
 				     if(Temp.next()){
 				    	 Zan_name  = Temp.getString("teamUser_tname");
 				    	 Zan_host  = Temp.getString("teamUser_host");
-				    		statement.execute("insert into teamUser(teamUser_tid,teamUser_tname,teamUser_uid,teamUser_uname,teamUser_host) "
-						 			+ "values ("+Team_tid+",'"+Zan_name+"','"+Temp_uid+"','"+Temp_uname+"','"+Zan_host+"');");
+				    		statement.execute("insert into teamUser(teamUser_tid,teamUser_tname,teamUser_uid,teamUser_uname,teamUser_host,teamUser_status) "
+						 			+ "values ("+Team_tid+",'"+Zan_name+"','"+Temp_uid+"','"+Temp_uname+"','"+Zan_host+"','0');");
 				     }
 				    return true;
 				}
